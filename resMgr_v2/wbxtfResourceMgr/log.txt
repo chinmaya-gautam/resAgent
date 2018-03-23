@@ -1,0 +1,96 @@
+[INFO][2018-03-23 12:39:48,921][PID:564][TID:4256] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-23 12:39:48,924][PID:564][TID:4256] [__loadParamFile] loading config file = D:\cgautam\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-23 12:39:48,926][PID:564][TID:4256] [__init__] Status monitor initialized.
+[DEBUG][2018-03-23 12:39:48,931][PID:564][TID:4348] [run] Ping local WBXTF success 
+[DEBUG][2018-03-23 12:39:48,947][PID:564][TID:4348] [updateInfoToMaster] master server response = {'status': 'WBXTF Online', 'ip': '10.1.10.10', 'id': 1380, 'lastPingTime': '2018-03-23T19:39:52.501000Z'}
+[ERROR][2018-03-23 12:39:48,947][PID:564][TID:4348] [updateInfoToMaster] Master server response can not be parsed, return = {"id":1380,"ip":"10.1.10.10","status":"WBXTF Online","lastPingTime":"2018-03-23T19:39:52.501000Z"}
+[INFO][2018-03-23 12:40:18,930][PID:564][TID:4256] [start] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[DEBUG][2018-03-23 12:40:48,933][PID:564][TID:2336] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 12:41:48,936][PID:564][TID:2336] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 12:42:48,938][PID:564][TID:2336] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 12:43:48,941][PID:564][TID:2336] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 12:44:48,944][PID:564][TID:2336] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[INFO][2018-03-23 12:45:34,584][PID:3584][TID:2284] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-23 12:45:34,585][PID:3584][TID:2284] [__loadParamFile] loading config file = D:\cgautam\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-23 12:45:34,585][PID:3584][TID:2284] [__init__] Status monitor initialized.
+[DEBUG][2018-03-23 12:45:34,592][PID:3584][TID:3424] [run] Ping local WBXTF success 
+[DEBUG][2018-03-23 12:45:34,604][PID:3584][TID:3424] [updateInfoToMaster] master server response = {'status': 'WBXTF Online', 'ip': '10.1.10.10', 'id': 1380, 'lastPingTime': '2018-03-23T19:45:38.163000Z'}
+[ERROR][2018-03-23 12:45:34,604][PID:3584][TID:3424] [updateInfoToMaster] Master server response can not be parsed, return = {"id":1380,"ip":"10.1.10.10","status":"WBXTF Online","lastPingTime":"2018-03-23T19:45:38.163000Z"}
+[INFO][2018-03-23 12:46:04,592][PID:3584][TID:2284] [start] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[DEBUG][2018-03-23 12:46:34,595][PID:3584][TID:4668] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 12:47:34,596][PID:3584][TID:4668] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[INFO][2018-03-23 12:50:02,897][PID:4208][TID:4248] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-23 12:50:02,898][PID:4208][TID:4248] [__loadParamFile] loading config file = D:\cgautam\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-23 12:50:02,900][PID:4208][TID:4248] [__init__] Status monitor initialized.
+[DEBUG][2018-03-23 12:50:02,905][PID:4208][TID:1348] [run] Ping local WBXTF success 
+[DEBUG][2018-03-23 12:50:02,915][PID:4208][TID:1348] [updateInfoToMaster] master server response = {'status': 'WBXTF Online', 'ip': '10.1.10.10', 'id': 1380, 'lastPingTime': '2018-03-23T19:50:06.475000Z'}
+[ERROR][2018-03-23 12:50:02,915][PID:4208][TID:1348] [updateInfoToMaster] Master server response can not be parsed, return = {"id":1380,"ip":"10.1.10.10","status":"WBXTF Online","lastPingTime":"2018-03-23T19:50:06.475000Z"}
+[INFO][2018-03-23 12:50:32,904][PID:4208][TID:4248] [start] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[DEBUG][2018-03-23 12:51:02,905][PID:4208][TID:3712] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[INFO][2018-03-23 12:51:20,052][PID:3020][TID:1988] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-23 12:51:20,055][PID:3020][TID:1988] [__loadParamFile] loading config file = D:\cgautam\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-23 12:51:20,055][PID:3020][TID:1988] [__init__] Status monitor initialized.
+[DEBUG][2018-03-23 12:51:20,061][PID:3020][TID:4200] [run] Ping local WBXTF success 
+[DEBUG][2018-03-23 12:51:20,073][PID:3020][TID:4200] [updateInfoToMaster] master server response = {'status': 'WBXTF Online', 'ip': '10.1.10.10', 'id': 1380, 'lastPingTime': '2018-03-23T19:51:23.632000Z'}
+[ERROR][2018-03-23 12:51:20,073][PID:3020][TID:4200] [updateInfoToMaster] Master server response can not be parsed, return = {"id":1380,"ip":"10.1.10.10","status":"WBXTF Online","lastPingTime":"2018-03-23T19:51:23.632000Z"}
+[INFO][2018-03-23 12:51:50,059][PID:3020][TID:1988] [start] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[DEBUG][2018-03-23 12:52:20,062][PID:3020][TID:3692] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 12:53:20,065][PID:3020][TID:3692] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 12:54:20,069][PID:3020][TID:3692] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 12:55:20,072][PID:3020][TID:3692] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 12:56:20,075][PID:3020][TID:3692] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 12:57:20,078][PID:3020][TID:3692] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 12:58:20,081][PID:3020][TID:3692] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 12:59:20,082][PID:3020][TID:3692] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 13:00:20,085][PID:3020][TID:3692] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 13:01:20,088][PID:3020][TID:3692] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[DEBUG][2018-03-23 13:02:20,092][PID:3020][TID:3692] [run] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[INFO][2018-03-23 15:42:17,036][PID:3456][TID:764] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-23 15:42:17,039][PID:3456][TID:764] [__loadParamFile] loading config file = D:\cgautam\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-23 15:42:17,039][PID:3456][TID:764] [__init__] Status monitor initialized.
