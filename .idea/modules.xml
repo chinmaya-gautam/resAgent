@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://D:/PF_Tools/resAdmin/.idea/resAdmin.iml" filepath="D:/PF_Tools/resAdmin/.idea/resAdmin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/resAgent.iml" filepath="$PROJECT_DIR$/.idea/resAgent.iml" />
     </modules>
   </component>

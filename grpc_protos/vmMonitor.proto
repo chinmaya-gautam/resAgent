@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package vmMonitor;
+
+service vmMonitor {
+  rpc getVMStatus(vmStatusRequest) returns (vmStatus) {}
+  rpc getSparkStatus(sparkStatusRequest) returns (sparkStatus) {}
+}
+
+message vmStatusRequest{
+
+}
+
+message vmStatus{
+    float cpuPercent = 1;
+    string cpuPercentPerCpu = 2;
+    float vmemPercent = 3;
+    float smemPercent = 4;
+}
+
+message sparkStatusRequest{
+
+}
+
+message sparkStatus{
+   bool isAlive = 1;
+   bool isLoggedIn = 2;
+   string loggedInUser = 3;
+   string pairedDeviceId = 4;
+   string callState = 5;
+   bool isInLobby = 6;
+   string sparkVersion = 7;
+   string mediaStats = 8;
+   string packetStats = 9;
+}
+

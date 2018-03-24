@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.cisco.spark.bot";
+option java_outer_classname = "BotCmdParserProto";
+//option objc_class_prefix = "HLW";
+
+package bot;
+
+service BotCommandParser {
+rpc Parse (BotCmd) returns (BotCmdResp) {}
+}
+
+message BotCmd {
+string cmd = 1;
+}
+
+message BotCmdResp {
+string parsedcmd = 1;
+}
