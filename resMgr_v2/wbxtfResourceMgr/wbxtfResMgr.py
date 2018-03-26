@@ -294,9 +294,12 @@ class wbxtfResMgr(object):
     def start(self):
         self._mgrCtr.start()
         self._toolMgr.start()
-        while True:
-            time.sleep(30)
-
+        try:
+            while True:
+                time.sleep(30)
+        except KeyboardInterrupt:
+            WBXTFLogInfo("Resource Manager interrupted, will exit")
+            sys.exit(0)
 
 class wbxtfResMgrCtrInterface(wbxtfPyToolModuleInterfaceBase):
     def __init__(self,ptrMgr):

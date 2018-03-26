@@ -24,7 +24,6 @@ from sys import platform as _platform
 
 from resAgentConfig import *
 
-from resConfig import *
 
 class VMBooker(threading.Thread):
     def __init__(self, oResAgent):
@@ -66,7 +65,7 @@ class VMBooker(threading.Thread):
         WBXTFLogInfo("GRPC Status : %s" % channelStauts)
 
     def run(self):
-        while 1:
+        while self._oResAgent.keepAliveVMBooker:
             try:
                 adminResponse = self._stub.updateResPool(self._statusInfo)
                 self._statusInfo = adminResponse
@@ -80,6 +79,7 @@ class VMBooker(threading.Thread):
             except Exception, e:
                 WBXTFLogError("Unknow Error : %s" % e)
             time.sleep(1)
+
 
 if __name__ == "__main__":
     WBXTFLogSetLogLevel(WBXTF_INFO)

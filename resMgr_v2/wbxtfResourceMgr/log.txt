@@ -94,3 +94,76 @@
 ############################################
 [INFO][2018-03-23 15:42:17,039][PID:3456][TID:764] [__loadParamFile] loading config file = D:\cgautam\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
 [INFO][2018-03-23 15:42:17,039][PID:3456][TID:764] [__init__] Status monitor initialized.
+[INFO][2018-03-26 11:14:41,750][PID:1316][TID:772] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-26 11:14:41,750][PID:1316][TID:772] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-26 12:16:58,904][PID:3632][TID:3056] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-26 12:16:58,905][PID:3632][TID:3056] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-26 12:17:40,250][PID:2400][TID:4076] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-26 12:17:40,250][PID:2400][TID:4076] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-26 12:22:52,236][PID:3584][TID:4564] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-26 12:22:52,237][PID:3584][TID:4564] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-26 12:33:36,474][PID:1696][TID:4112] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-26 12:33:36,476][PID:1696][TID:4112] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-26 12:33:41,989][PID:1696][TID:4112] [start] Job Manager interrupted, will exit
+[INFO][2018-03-26 12:34:17,757][PID:2360][TID:3864] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-26 12:34:17,759][PID:2360][TID:3864] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-26 12:34:23,335][PID:2360][TID:3864] [start] Job Manager interrupted, will exit
+[INFO][2018-03-26 12:37:53,173][PID:4788][TID:2528] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-26 12:37:53,174][PID:4788][TID:2528] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-26 12:38:07,875][PID:4788][TID:2528] [start] Job Manager interrupted, will exit
+[INFO][2018-03-26 12:43:11,519][PID:560][TID:2876] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-26 12:43:11,520][PID:560][TID:2876] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-26 12:43:33,927][PID:1216][TID:4052] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-26 12:43:33,930][PID:1216][TID:4052] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-26 12:44:03,131][PID:1216][TID:4052] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-26 13:40:42,017][PID:3580][TID:1740] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-26 13:40:42,019][PID:3580][TID:1740] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-26 13:40:51,144][PID:3580][TID:1740] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-26 13:44:01,947][PID:3940][TID:4164] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-26 13:44:01,950][PID:3940][TID:4164] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-26 13:44:03,677][PID:3940][TID:4164] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-26 13:44:36,339][PID:2336][TID:4268] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-26 13:44:36,342][PID:2336][TID:4268] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-26 13:53:05,457][PID:2336][TID:4268] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-26 14:06:14,711][PID:4640][TID:560] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-26 14:06:14,714][PID:4640][TID:560] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-26 14:06:24,707][PID:4640][TID:560] [start] Resource Manager interrupted, will exit
