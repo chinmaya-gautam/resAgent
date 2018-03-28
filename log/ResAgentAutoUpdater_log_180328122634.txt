@@ -1,0 +1,9 @@
+[DEBUG][2018-03-28 12:26:34,582][PID:10428][TID:10916] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:27:34,584][PID:10428][TID:10916] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:28:34,588][PID:10428][TID:10916] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:29:34,591][PID:10428][TID:10916] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[INFO][2018-03-28 12:30:15,737][PID:10428][TID:10916] [start] Received a keyboard interrupt, will exit ...

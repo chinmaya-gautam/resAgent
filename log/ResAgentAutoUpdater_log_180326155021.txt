@@ -1,0 +1,28 @@
+[DEBUG][2018-03-26 15:50:21,160][PID:4648][TID:3840] [checkForUpdates] updateCheck response=
+{'version':'1.0.1','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[INFO][2018-03-26 15:50:21,691][PID:4648][TID:3840] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/resAgent.zip)  is downloading .... 
+[INFO][2018-03-26 15:50:21,792][PID:4648][TID:3840] [_download_file] download:http://10.1.8.5/pf_tools/resAgent.zip to local:c:\tmpWBXTFResMgr\resAgent.zip finished Original: 5209102, downloaded: 5209102
+[INFO][2018-03-26 15:50:23,486][PID:4648][TID:3840] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpWBXTFResMgr\resAgent
+[ERROR][2018-03-26 15:50:23,486][PID:4648][TID:3840] [start] Exception running auto updater: argument of type 'int' is not iterable
+[DEBUG][2018-03-26 15:50:23,489][PID:4648][TID:3840] [checkForUpdates] updateCheck response=
+{'version':'1.0.1','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[INFO][2018-03-26 15:50:24,134][PID:4648][TID:3840] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/resAgent.zip)  is downloading .... 
+[INFO][2018-03-26 15:50:24,223][PID:4648][TID:3840] [_download_file] download:http://10.1.8.5/pf_tools/resAgent.zip to local:c:\tmpWBXTFResMgr\resAgent.zip finished Original: 5209102, downloaded: 5209102
+[INFO][2018-03-26 15:50:25,724][PID:4648][TID:3840] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpWBXTFResMgr\resAgent
+[ERROR][2018-03-26 15:50:25,726][PID:4648][TID:3840] [start] Exception running auto updater: argument of type 'int' is not iterable
+[DEBUG][2018-03-26 15:50:25,729][PID:4648][TID:3840] [checkForUpdates] updateCheck response=
+{'version':'1.0.1','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[INFO][2018-03-26 15:50:26,348][PID:4648][TID:3840] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/resAgent.zip)  is downloading .... 
+[INFO][2018-03-26 15:50:26,457][PID:4648][TID:3840] [_download_file] download:http://10.1.8.5/pf_tools/resAgent.zip to local:c:\tmpWBXTFResMgr\resAgent.zip finished Original: 5209102, downloaded: 5209102
+[INFO][2018-03-26 15:50:28,137][PID:4648][TID:3840] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpWBXTFResMgr\resAgent
+[ERROR][2018-03-26 15:50:28,138][PID:4648][TID:3840] [start] Exception running auto updater: argument of type 'int' is not iterable
+[DEBUG][2018-03-26 15:50:28,141][PID:4648][TID:3840] [checkForUpdates] updateCheck response=
+{'version':'1.0.1','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[INFO][2018-03-26 15:50:28,891][PID:4648][TID:3840] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/resAgent.zip)  is downloading .... 
+[INFO][2018-03-26 15:50:28,986][PID:4648][TID:3840] [_download_file] download:http://10.1.8.5/pf_tools/resAgent.zip to local:c:\tmpWBXTFResMgr\resAgent.zip finished Original: 5209102, downloaded: 5209102
+[INFO][2018-03-26 15:50:30,696][PID:4648][TID:3840] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpWBXTFResMgr\resAgent
+[ERROR][2018-03-26 15:50:30,697][PID:4648][TID:3840] [start] Exception running auto updater: argument of type 'int' is not iterable
+[DEBUG][2018-03-26 15:50:30,700][PID:4648][TID:3840] [checkForUpdates] updateCheck response=
+{'version':'1.0.1','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[INFO][2018-03-26 15:50:31,517][PID:4648][TID:3840] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/resAgent.zip)  is downloading .... 
+[INFO][2018-03-26 15:50:31,522][PID:4648][TID:3840] [start] Received a keyboard interrupt, will exit ...

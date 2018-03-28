@@ -1,0 +1,29 @@
+[DEBUG][2018-03-28 12:35:33,552][PID:10584][TID:9456] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:36:33,555][PID:10584][TID:9456] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:37:33,562][PID:10584][TID:9456] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:38:33,565][PID:10584][TID:9456] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:39:33,572][PID:10584][TID:9456] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:40:33,575][PID:10584][TID:9456] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:41:33,579][PID:10584][TID:9456] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:42:33,582][PID:10584][TID:9456] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:43:33,585][PID:10584][TID:9456] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:44:33,588][PID:10584][TID:9456] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:45:33,598][PID:10584][TID:9456] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:46:33,602][PID:10584][TID:9456] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:47:33,607][PID:10584][TID:9456] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[DEBUG][2018-03-28 12:48:33,608][PID:10584][TID:9456] [checkForUpdates] updateCheck response=
+{'version':'1.0.0','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[INFO][2018-03-28 12:48:34,575][PID:10584][TID:9456] [start] Received a keyboard interrupt, will exit ...

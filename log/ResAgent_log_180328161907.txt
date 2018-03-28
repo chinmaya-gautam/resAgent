@@ -1,0 +1,39 @@
+[INFO][2018-03-28 16:19:07,703][PID:9708][TID:13048] [onChannelIndication] GRPC Status : ChannelConnectivity.IDLE
+[INFO][2018-03-28 16:19:07,904][PID:9708][TID:12744] [onChannelIndication] GRPC Status : ChannelConnectivity.READY
+[INFO][2018-03-28 16:19:10,684][PID:9708][TID:12820] [onChannelIndication] GRPC Status : ChannelConnectivity.TRANSIENT_FAILURE
+[INFO][2018-03-28 16:19:10,687][PID:9708][TID:11708] [onChannelIndication] GRPC Status : ChannelConnectivity.IDLE
+[INFO][2018-03-28 16:19:11,720][PID:9708][TID:13248] [start] Starting VM Booker...
+[INFO][2018-03-28 16:19:11,721][PID:9708][TID:13248] [start] Starting Resource Manager...
+[INFO][2018-03-28 16:19:11,723][PID:9708][TID:12416] [onChannelIndication] GRPC Status : ChannelConnectivity.CONNECTING
+[INFO][2018-03-28 16:19:11,724][PID:9708][TID:12052] [run] Res state changed from:None to 1
+[INFO][2018-03-28 16:19:11,724][PID:9708][TID:12416] [onChannelIndication] GRPC Status : ChannelConnectivity.READY
+[INFO][2018-03-28 16:19:11,727][PID:9708][TID:13248] [start] Starting Auto Updater...
+[INFO][2018-03-28 16:20:18,611][PID:9708][TID:12336] [onChannelIndication] GRPC Status : ChannelConnectivity.TRANSIENT_FAILURE
+[INFO][2018-03-28 16:20:18,611][PID:9708][TID:12336] [onChannelIndication] GRPC Status : ChannelConnectivity.IDLE
+[INFO][2018-03-28 16:20:18,796][PID:9708][TID:12640] [onChannelIndication] GRPC Status : ChannelConnectivity.CONNECTING
+[ERROR][2018-03-28 16:20:20,795][PID:9708][TID:12052] [run] GRPC Error : <_Rendezvous of RPC that terminated with (StatusCode.UNAVAILABLE, Connect Failed)>
+[INFO][2018-03-28 16:20:20,796][PID:9708][TID:13228] [onChannelIndication] GRPC Status : ChannelConnectivity.TRANSIENT_FAILURE
+[INFO][2018-03-28 16:20:38,796][PID:9708][TID:12908] [onChannelIndication] GRPC Status : ChannelConnectivity.CONNECTING
+[ERROR][2018-03-28 16:20:40,796][PID:9708][TID:12052] [run] GRPC Error : <_Rendezvous of RPC that terminated with (StatusCode.UNAVAILABLE, Connect Failed)>
+[INFO][2018-03-28 16:20:40,796][PID:9708][TID:3760] [onChannelIndication] GRPC Status : ChannelConnectivity.TRANSIENT_FAILURE
+[INFO][2018-03-28 16:20:58,798][PID:9708][TID:12412] [onChannelIndication] GRPC Status : ChannelConnectivity.CONNECTING
+[ERROR][2018-03-28 16:21:00,798][PID:9708][TID:12052] [run] GRPC Error : <_Rendezvous of RPC that terminated with (StatusCode.UNAVAILABLE, Connect Failed)>
+[INFO][2018-03-28 16:21:00,799][PID:9708][TID:3188] [onChannelIndication] GRPC Status : ChannelConnectivity.TRANSIENT_FAILURE
+[INFO][2018-03-28 16:21:18,803][PID:9708][TID:13184] [onChannelIndication] GRPC Status : ChannelConnectivity.CONNECTING
+[ERROR][2018-03-28 16:21:20,805][PID:9708][TID:12052] [run] GRPC Error : <_Rendezvous of RPC that terminated with (StatusCode.UNAVAILABLE, Connect Failed)>
+[INFO][2018-03-28 16:21:20,805][PID:9708][TID:9112] [onChannelIndication] GRPC Status : ChannelConnectivity.TRANSIENT_FAILURE
+[INFO][2018-03-28 16:21:38,805][PID:9708][TID:13076] [onChannelIndication] GRPC Status : ChannelConnectivity.CONNECTING
+[ERROR][2018-03-28 16:21:40,809][PID:9708][TID:12052] [run] GRPC Error : <_Rendezvous of RPC that terminated with (StatusCode.UNAVAILABLE, Connect Failed)>
+[INFO][2018-03-28 16:21:40,809][PID:9708][TID:12832] [onChannelIndication] GRPC Status : ChannelConnectivity.TRANSIENT_FAILURE
+[INFO][2018-03-28 16:21:58,808][PID:9708][TID:3376] [onChannelIndication] GRPC Status : ChannelConnectivity.CONNECTING
+[ERROR][2018-03-28 16:22:00,812][PID:9708][TID:12052] [run] GRPC Error : <_Rendezvous of RPC that terminated with (StatusCode.UNAVAILABLE, Connect Failed)>
+[INFO][2018-03-28 16:22:00,812][PID:9708][TID:11312] [onChannelIndication] GRPC Status : ChannelConnectivity.TRANSIENT_FAILURE
+[INFO][2018-03-28 16:22:18,809][PID:9708][TID:12368] [onChannelIndication] GRPC Status : ChannelConnectivity.CONNECTING
+[ERROR][2018-03-28 16:22:20,815][PID:9708][TID:12052] [run] GRPC Error : <_Rendezvous of RPC that terminated with (StatusCode.UNAVAILABLE, Connect Failed)>
+[INFO][2018-03-28 16:22:20,885][PID:9708][TID:8924] [onChannelIndication] GRPC Status : ChannelConnectivity.TRANSIENT_FAILURE
+[INFO][2018-03-28 16:22:25,694][PID:9708][TID:13248] [cleanup] Shutting down resource agent ...
+[INFO][2018-03-28 16:22:25,697][PID:9708][TID:13248] [cleanup] Shutting down resource manager ...
+[INFO][2018-03-28 16:22:25,697][PID:9708][TID:13248] [cleanup] Shutting down auto updater...
+[INFO][2018-03-28 16:22:25,700][PID:9708][TID:13248] [cleanup] Shutting down vm monitor ...
+[INFO][2018-03-28 16:22:25,707][PID:9708][TID:13248] [cleanup] Shutting down vm booker ...
+[INFO][2018-03-28 16:22:35,710][PID:9708][TID:13248] [cleanup] Completed all cleanup tasks, resource agent will exit in 3 seconds. Bye...

@@ -167,3 +167,205 @@
 ############################################
 [INFO][2018-03-26 14:06:14,714][PID:4640][TID:560] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
 [INFO][2018-03-26 14:06:24,707][PID:4640][TID:560] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-27 14:12:06,348][PID:3744][TID:4468] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 14:12:06,351][PID:3744][TID:4468] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 16:35:34,980][PID:2492][TID:2320] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 16:35:34,986][PID:2492][TID:2320] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 16:36:15,101][PID:2080][TID:676] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 16:36:15,105][PID:2080][TID:676] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 16:36:35,239][PID:2080][TID:676] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-27 16:38:21,296][PID:984][TID:1340] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 16:38:21,299][PID:984][TID:1340] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 16:38:37,631][PID:3292][TID:3296] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 16:38:37,664][PID:3292][TID:3296] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 16:38:52,265][PID:3604][TID:3608] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 16:38:52,269][PID:3604][TID:3608] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 16:40:47,986][PID:3508][TID:3768] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 16:40:47,989][PID:3508][TID:3768] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 16:41:03,040][PID:872][TID:500] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 16:41:03,042][PID:872][TID:500] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 16:41:14,668][PID:3508][TID:3768] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-27 16:41:14,668][PID:872][TID:500] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-27 16:44:41,161][PID:3832][TID:3776] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 16:44:41,164][PID:3832][TID:3776] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 16:44:48,010][PID:3832][TID:3776] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-27 16:45:10,375][PID:2980][TID:2492] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 16:45:10,387][PID:2980][TID:2492] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 16:45:25,698][PID:2696][TID:3884] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 16:45:25,701][PID:2696][TID:3884] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 16:56:39,359][PID:2696][TID:3884] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-27 16:56:39,359][PID:2980][TID:2492] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-27 16:57:03,993][PID:276][TID:1900] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 16:57:03,999][PID:276][TID:1900] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 16:57:19,631][PID:3124][TID:3384] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 16:57:19,635][PID:3124][TID:3384] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 16:58:02,210][PID:3124][TID:3384] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-27 16:58:02,211][PID:276][TID:1900] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-27 17:17:33,130][PID:1984][TID:3876] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 17:17:33,132][PID:1984][TID:3876] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 17:17:52,608][PID:1984][TID:3876] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-27 17:18:10,684][PID:2016][TID:3656] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 17:18:10,686][PID:2016][TID:3656] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 17:18:26,153][PID:3348][TID:3960] [<module>] 
+############################################
+#   WBXTF Resource Manager Version:1.0.21   #
+############################################
+[INFO][2018-03-27 17:18:26,154][PID:3348][TID:3960] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-27 17:19:31,394][PID:2016][TID:3656] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-27 17:19:31,404][PID:3348][TID:3960] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 10:21:01,227][PID:9708][TID:9296] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 10:21:50,933][PID:9708][TID:9296] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 11:57:07,986][PID:10280][TID:10332] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 11:57:08,658][PID:10280][TID:10332] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 12:02:58,621][PID:10956][TID:10272] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 12:07:10,542][PID:10956][TID:10272] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 12:07:32,121][PID:10044][TID:11016] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 12:12:07,506][PID:10044][TID:11016] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 12:25:01,071][PID:10248][TID:10812] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 12:25:55,517][PID:10248][TID:10812] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 12:26:34,790][PID:11260][TID:11232] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 12:30:15,737][PID:11260][TID:11232] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 12:30:37,285][PID:10624][TID:10664] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 12:34:43,005][PID:10624][TID:10664] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 12:35:33,640][PID:10864][TID:10380] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 12:48:34,573][PID:10864][TID:10380] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 12:48:55,003][PID:8140][TID:11380] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 12:54:02,671][PID:8140][TID:11380] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 12:55:41,114][PID:12100][TID:11840] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 12:56:40,374][PID:12100][TID:11104] [runManagedProcess] runManagedProcess ownerName=10.1.10.10,ownerURL=10.1.10.10:11830,procPath=calc ,procNum=1 ,procParam=None
+[INFO][2018-03-28 12:56:40,450][PID:12100][TID:11104] [runManagedProcess] run managed process:calc count:1 for owner:10.1.10.10 success.
+[INFO][2018-03-28 13:03:01,121][PID:12100][TID:11840] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 13:03:22,723][PID:11952][TID:11080] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 13:04:50,638][PID:11952][TID:11080] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 13:05:08,857][PID:12100][TID:10040] [run] process owner:10.1.10.10 (url=10.1.10.10:11830) is not valid any more, its managed process will be killed
+[INFO][2018-03-28 13:05:43,605][PID:10936][TID:11764] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 13:06:06,595][PID:10936][TID:11764] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 13:06:16,137][PID:10752][TID:10356] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 13:06:42,193][PID:10752][TID:10356] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 13:14:41,496][PID:11964][TID:12152] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 13:15:05,342][PID:11964][TID:9512] [runManagedProcess] runManagedProcess ownerName=10.1.10.10,ownerURL=10.1.10.10:11830,procPath=calc ,procNum=1 ,procParam=None
+[INFO][2018-03-28 13:15:05,361][PID:11964][TID:9512] [runManagedProcess] run managed process:calc count:1 for owner:10.1.10.10 success.
+[INFO][2018-03-28 13:16:41,141][PID:11964][TID:12152] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 13:18:19,655][PID:11780][TID:11796] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 13:18:49,910][PID:11780][TID:11796] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 13:19:42,042][PID:11664][TID:11128] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 13:20:04,299][PID:11664][TID:11128] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 13:25:08,003][PID:11512][TID:10368] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 13:25:25,345][PID:11512][TID:10368] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 13:25:25,345][PID:11512][TID:10368] [stop] unregistering tools
+[INFO][2018-03-28 13:26:31,357][PID:12140][TID:11540] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 13:26:53,934][PID:12140][TID:11540] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 13:26:53,946][PID:12140][TID:11540] [stop] unregistering tools
+[INFO][2018-03-28 13:28:12,801][PID:11824][TID:10816] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 13:28:14,806][PID:11824][TID:10816] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 13:28:14,809][PID:11824][TID:10816] [stop] unregistering tools
+[INFO][2018-03-28 13:31:28,552][PID:11604][TID:2400] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 13:31:40,573][PID:11604][TID:2400] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 13:31:40,575][PID:11604][TID:2400] [stop] unregistering tools
+[INFO][2018-03-28 13:33:23,970][PID:12040][TID:11624] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 13:34:01,161][PID:12040][TID:12244] [runManagedProcess] runManagedProcess ownerName=10.1.10.10,ownerURL=10.1.10.10:11830,procPath=calc ,procNum=1 ,procParam=None
+[INFO][2018-03-28 13:34:01,194][PID:12040][TID:12244] [runManagedProcess] run managed process:calc count:1 for owner:10.1.10.10 success.
+[INFO][2018-03-28 13:41:48,494][PID:12040][TID:11624] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 13:42:48,483][PID:11716][TID:11912] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 13:43:41,832][PID:11716][TID:11440] [runManagedProcess] runManagedProcess ownerName=10.1.10.10,ownerURL=10.1.10.10:11830,procPath=calc ,procNum=1 ,procParam=None
+[INFO][2018-03-28 13:43:41,848][PID:11716][TID:11440] [runManagedProcess] run managed process:calc count:1 for owner:10.1.10.10 success.
+[INFO][2018-03-28 13:50:13,298][PID:11716][TID:11912] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 13:55:30,263][PID:11604][TID:9680] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 13:56:07,874][PID:11604][TID:11312] [runManagedProcess] runManagedProcess ownerName=10.1.10.10,ownerURL=10.1.10.10:11830,procPath=calc ,procNum=1 ,procParam=None
+[INFO][2018-03-28 13:56:07,891][PID:11604][TID:11312] [runManagedProcess] run managed process:calc count:1 for owner:10.1.10.10 success.
+[INFO][2018-03-28 13:56:47,118][PID:11604][TID:9680] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 13:59:32,720][PID:11844][TID:11664] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 14:00:06,503][PID:11844][TID:11364] [runManagedProcess] runManagedProcess ownerName=10.1.10.10,ownerURL=10.1.10.10:11830,procPath=calc ,procNum=1 ,procParam=None
+[INFO][2018-03-28 14:00:06,510][PID:11844][TID:11364] [runManagedProcess] run managed process:calc count:1 for owner:10.1.10.10 success.
+[INFO][2018-03-28 14:01:31,019][PID:11844][TID:11664] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 14:01:49,651][PID:11288][TID:3876] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 14:02:31,516][PID:11288][TID:7192] [runManagedProcess] runManagedProcess ownerName=10.1.10.10,ownerURL=10.1.10.10:11830,procPath=calc ,procNum=1 ,procParam=None
+[ERROR][2018-03-28 14:02:31,516][PID:11288][TID:7192] [_checkGRPCHeartbeat] Exception checking GRPC heartbeat at 10.1.10.10:11830: 'module' object has no attribute 'insecure_channel'
+[ERROR][2018-03-28 14:02:31,517][PID:11288][TID:7192] [runManagedProcess] ownerURL:10.1.10.10:11830 is invalid
+[INFO][2018-03-28 14:02:42,036][PID:11288][TID:3876] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 14:05:05,053][PID:10356][TID:10576] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 14:05:39,687][PID:10356][TID:10704] [runManagedProcess] runManagedProcess ownerName=10.1.10.10,ownerURL=10.1.10.10:11830,procPath=calc ,procNum=1 ,procParam=None
+[ERROR][2018-03-28 14:05:39,690][PID:10356][TID:10704] [_checkGRPCHeartbeat] Exception checking GRPC heartbeat at 10.1.10.10:11830: 'module' object has no attribute 'insecure_channel'
+[ERROR][2018-03-28 14:05:39,690][PID:10356][TID:10704] [runManagedProcess] ownerURL:10.1.10.10:11830 is invalid
+[INFO][2018-03-28 14:06:00,315][PID:10356][TID:10576] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 16:10:26,848][PID:11704][TID:11268] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 16:11:02,221][PID:11704][TID:12656] [runManagedProcess] runManagedProcess ownerName=10.1.10.10,ownerURL=10.1.10.10:11830,procPath=calc ,procNum=1 ,procParam=None
+[ERROR][2018-03-28 16:11:02,223][PID:11704][TID:12656] [_checkGRPCHeartbeat] Exception checking GRPC heartbeat at 10.1.10.10:11830: 'module' object has no attribute 'insecure_channel'
+[ERROR][2018-03-28 16:11:02,223][PID:11704][TID:12656] [runManagedProcess] ownerURL:10.1.10.10:11830 is invalid
+[INFO][2018-03-28 16:11:22,494][PID:11704][TID:11268] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 16:14:39,158][PID:12984][TID:13104] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 16:15:13,848][PID:12984][TID:12472] [runManagedProcess] runManagedProcess ownerName=10.1.10.10,ownerURL=10.1.10.10:11830,procPath=calc ,procNum=1 ,procParam=None
+[ERROR][2018-03-28 16:15:13,857][PID:12984][TID:12472] [_checkGRPCHeartbeat] Exception checking GRPC heartbeat at 10.1.10.10:11830: 'module' object has no attribute 'resAgnetStub'
+[ERROR][2018-03-28 16:15:13,858][PID:12984][TID:12472] [runManagedProcess] ownerURL:10.1.10.10:11830 is invalid
+[INFO][2018-03-28 16:15:39,058][PID:12984][TID:13104] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 16:17:01,819][PID:13212][TID:11976] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 16:17:35,221][PID:13212][TID:13272] [runManagedProcess] runManagedProcess ownerName=10.1.10.10,ownerURL=10.1.10.10:11830,procPath=calc ,procNum=1 ,procParam=None
+[ERROR][2018-03-28 16:17:35,229][PID:13212][TID:13272] [_checkGRPCHeartbeat] Exception checking GRPC heartbeat at 10.1.10.10:11830: __call__() takes at least 2 arguments (1 given)
+[ERROR][2018-03-28 16:17:35,229][PID:13212][TID:13272] [runManagedProcess] ownerURL:10.1.10.10:11830 is invalid
+[INFO][2018-03-28 16:19:02,444][PID:13212][TID:11976] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 16:19:12,121][PID:12448][TID:1052] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 16:19:46,071][PID:12448][TID:10600] [runManagedProcess] runManagedProcess ownerName=10.1.10.10,ownerURL=10.1.10.10:11830,procPath=calc ,procNum=1 ,procParam=None
+[INFO][2018-03-28 16:19:46,085][PID:12448][TID:10600] [runManagedProcess] run managed process:calc count:1 for owner:10.1.10.10 success.
+[ERROR][2018-03-28 16:20:23,158][PID:12448][TID:13256] [_checkGRPCHeartbeat] Exception checking GRPC heartbeat at 10.1.10.10:11830: <_Rendezvous of RPC that terminated with (StatusCode.UNAVAILABLE, Connect Failed)>
+[ERROR][2018-03-28 16:20:23,165][PID:12448][TID:13256] [_checkGRPCHeartbeat] Exception checking GRPC heartbeat at 10.1.10.10:11830: <_Rendezvous of RPC that terminated with (StatusCode.UNAVAILABLE, Connect Failed)>
+[INFO][2018-03-28 16:20:23,167][PID:12448][TID:13256] [run] process owner:10.1.10.10 (url=10.1.10.10:11830) is not valid any more, its managed process will be killed
+[INFO][2018-03-28 16:22:25,694][PID:12448][TID:1052] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 16:22:45,617][PID:12664][TID:13064] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 16:22:59,211][PID:12664][TID:11492] [runManagedProcess] runManagedProcess ownerName=10.1.10.10,ownerURL=10.1.10.10:11830,procPath=calc ,procNum=1 ,procParam=None
+[INFO][2018-03-28 16:22:59,239][PID:12664][TID:11492] [runManagedProcess] run managed process:calc count:1 for owner:10.1.10.10 success.
+[INFO][2018-03-28 16:23:26,648][PID:12664][TID:13020] [_checkGRPCHeartbeat] GRPC server not reachable at %s, no heartbeat
+[INFO][2018-03-28 16:23:26,651][PID:12664][TID:13020] [_checkGRPCHeartbeat] GRPC server not reachable at %s, no heartbeat
+[INFO][2018-03-28 16:23:26,651][PID:12664][TID:13020] [run] process owner:10.1.10.10 (url=10.1.10.10:11830) is not valid any more, its managed process will be killed
+[INFO][2018-03-28 16:23:53,944][PID:12664][TID:13064] [start] Resource Manager interrupted, will exit
+[INFO][2018-03-28 16:24:12,726][PID:9708][TID:12748] [__loadParamFile] loading config file = D:\cgautam\resAgent\resMgr_v2\wbxtfResourceMgr\wbxtfResMgrConfig.py
+[INFO][2018-03-28 16:24:25,747][PID:9708][TID:13160] [runManagedProcess] runManagedProcess ownerName=10.1.10.10,ownerURL=10.1.10.10:11830,procPath=calc ,procNum=1 ,procParam=None
+[INFO][2018-03-28 16:24:25,762][PID:9708][TID:13160] [runManagedProcess] run managed process:calc count:1 for owner:10.1.10.10 success.
+[INFO][2018-03-28 16:25:13,779][PID:9708][TID:12536] [_checkGRPCHeartbeat] GRPC server not reachable at 10.1.10.10:11830, no heartbeat
+[INFO][2018-03-28 16:25:13,786][PID:9708][TID:12536] [_checkGRPCHeartbeat] GRPC server not reachable at 10.1.10.10:11830, no heartbeat
+[INFO][2018-03-28 16:25:13,788][PID:9708][TID:12536] [run] process owner:10.1.10.10 (url=10.1.10.10:11830) is not valid any more, its managed process will be killed
+[INFO][2018-03-28 16:25:50,211][PID:9708][TID:12748] [start] Resource Manager interrupted, will exit

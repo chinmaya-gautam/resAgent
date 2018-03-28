@@ -1,0 +1,53 @@
+[DEBUG][2018-03-26 14:06:14,579][PID:3680][TID:2096] [checkForUpdates] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[INFO][2018-03-26 14:06:14,711][PID:3680][TID:2096] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip)  is downloading .... 
+[INFO][2018-03-26 14:06:14,801][PID:3680][TID:2096] [_download_file] download:http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip to local:c:\tmpWBXTFResMgr\wbxtfResouceManageAgent.zip finished Original: 4503095, downloaded: 4503095
+[INFO][2018-03-26 14:06:16,213][PID:3680][TID:2096] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpWBXTFResMgr\resAgent
+[ERROR][2018-03-26 14:06:16,213][PID:3680][TID:2096] [start] Exception running auto updater: argument of type 'int' is not iterable
+[DEBUG][2018-03-26 14:06:16,217][PID:3680][TID:2096] [checkForUpdates] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[INFO][2018-03-26 14:06:16,709][PID:3680][TID:2096] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip)  is downloading .... 
+[INFO][2018-03-26 14:06:16,790][PID:3680][TID:2096] [_download_file] download:http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip to local:c:\tmpWBXTFResMgr\wbxtfResouceManageAgent.zip finished Original: 4503095, downloaded: 4503095
+[INFO][2018-03-26 14:06:18,209][PID:3680][TID:2096] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpWBXTFResMgr\resAgent
+[ERROR][2018-03-26 14:06:18,210][PID:3680][TID:2096] [start] Exception running auto updater: argument of type 'int' is not iterable
+[DEBUG][2018-03-26 14:06:18,213][PID:3680][TID:2096] [checkForUpdates] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[INFO][2018-03-26 14:06:18,637][PID:3680][TID:2096] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip)  is downloading .... 
+[INFO][2018-03-26 14:06:18,717][PID:3680][TID:2096] [_download_file] download:http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip to local:c:\tmpWBXTFResMgr\wbxtfResouceManageAgent.zip finished Original: 4503095, downloaded: 4503095
+[INFO][2018-03-26 14:06:19,191][PID:3680][TID:2096] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpWBXTFResMgr\resAgent
+[ERROR][2018-03-26 14:06:19,193][PID:3680][TID:2096] [start] Exception running auto updater: argument of type 'int' is not iterable
+[DEBUG][2018-03-26 14:06:19,196][PID:3680][TID:2096] [checkForUpdates] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[INFO][2018-03-26 14:06:19,391][PID:3680][TID:2096] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip)  is downloading .... 
+[INFO][2018-03-26 14:06:19,474][PID:3680][TID:2096] [_download_file] download:http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip to local:c:\tmpWBXTFResMgr\wbxtfResouceManageAgent.zip finished Original: 4503095, downloaded: 4503095
+[INFO][2018-03-26 14:06:19,936][PID:3680][TID:2096] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpWBXTFResMgr\resAgent
+[ERROR][2018-03-26 14:06:19,936][PID:3680][TID:2096] [start] Exception running auto updater: argument of type 'int' is not iterable
+[DEBUG][2018-03-26 14:06:19,938][PID:3680][TID:2096] [checkForUpdates] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[INFO][2018-03-26 14:06:20,290][PID:3680][TID:2096] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip)  is downloading .... 
+[INFO][2018-03-26 14:06:20,368][PID:3680][TID:2096] [_download_file] download:http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip to local:c:\tmpWBXTFResMgr\wbxtfResouceManageAgent.zip finished Original: 4503095, downloaded: 4503095
+[INFO][2018-03-26 14:06:20,868][PID:3680][TID:2096] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpWBXTFResMgr\resAgent
+[ERROR][2018-03-26 14:06:20,868][PID:3680][TID:2096] [start] Exception running auto updater: argument of type 'int' is not iterable
+[DEBUG][2018-03-26 14:06:20,872][PID:3680][TID:2096] [checkForUpdates] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[INFO][2018-03-26 14:06:21,076][PID:3680][TID:2096] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip)  is downloading .... 
+[INFO][2018-03-26 14:06:21,157][PID:3680][TID:2096] [_download_file] download:http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip to local:c:\tmpWBXTFResMgr\wbxtfResouceManageAgent.zip finished Original: 4503095, downloaded: 4503095
+[INFO][2018-03-26 14:06:21,831][PID:3680][TID:2096] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpWBXTFResMgr\resAgent
+[ERROR][2018-03-26 14:06:21,831][PID:3680][TID:2096] [start] Exception running auto updater: argument of type 'int' is not iterable
+[DEBUG][2018-03-26 14:06:21,832][PID:3680][TID:2096] [checkForUpdates] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[INFO][2018-03-26 14:06:22,026][PID:3680][TID:2096] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip)  is downloading .... 
+[INFO][2018-03-26 14:06:22,102][PID:3680][TID:2096] [_download_file] download:http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip to local:c:\tmpWBXTFResMgr\wbxtfResouceManageAgent.zip finished Original: 4503095, downloaded: 4503095
+[INFO][2018-03-26 14:06:22,592][PID:3680][TID:2096] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpWBXTFResMgr\resAgent
+[ERROR][2018-03-26 14:06:22,592][PID:3680][TID:2096] [start] Exception running auto updater: argument of type 'int' is not iterable
+[DEBUG][2018-03-26 14:06:22,595][PID:3680][TID:2096] [checkForUpdates] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[INFO][2018-03-26 14:06:22,780][PID:3680][TID:2096] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip)  is downloading .... 
+[INFO][2018-03-26 14:06:22,864][PID:3680][TID:2096] [_download_file] download:http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip to local:c:\tmpWBXTFResMgr\wbxtfResouceManageAgent.zip finished Original: 4503095, downloaded: 4503095
+[INFO][2018-03-26 14:06:23,338][PID:3680][TID:2096] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpWBXTFResMgr\resAgent
+[ERROR][2018-03-26 14:06:23,338][PID:3680][TID:2096] [start] Exception running auto updater: argument of type 'int' is not iterable
+[DEBUG][2018-03-26 14:06:23,342][PID:3680][TID:2096] [checkForUpdates] updateCheck response=
+{'version':'1.0.21','path':'http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip'}
+[INFO][2018-03-26 14:06:24,615][PID:3680][TID:2096] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip)  is downloading .... 
+[INFO][2018-03-26 14:06:24,697][PID:3680][TID:2096] [_download_file] download:http://10.1.8.5/pf_tools/wbxtfResouceManageAgent.zip to local:c:\tmpWBXTFResMgr\wbxtfResouceManageAgent.zip finished Original: 4503095, downloaded: 4503095
+[INFO][2018-03-26 14:06:24,706][PID:3680][TID:2096] [start] Received a keyboard interrupt, will exit ...

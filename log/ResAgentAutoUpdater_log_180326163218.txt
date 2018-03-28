@@ -1,0 +1,29 @@
+[DEBUG][2018-03-26 16:32:18,874][PID:3156][TID:3900] [checkForUpdates] updateCheck response=
+{'version':'1.0.1','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[INFO][2018-03-26 16:32:19,601][PID:3156][TID:3900] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/resAgent.zip)  is downloading .... 
+[INFO][2018-03-26 16:32:19,736][PID:3156][TID:3900] [_download_file] download:http://10.1.8.5/pf_tools/resAgent.zip to local:c:\tmpResAgent\resAgent.zip finished Original: 5209102, downloaded: 5209102
+[INFO][2018-03-26 16:32:21,947][PID:3156][TID:3900] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpResAgent
+[ERROR][2018-03-26 16:32:21,947][PID:3156][TID:3900] [start] Exception running auto updater: 'module' object has no attribute 'getppid'
+[DEBUG][2018-03-26 16:32:21,951][PID:3156][TID:3900] [checkForUpdates] updateCheck response=
+{'version':'1.0.1','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[INFO][2018-03-26 16:32:22,744][PID:3156][TID:3900] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/resAgent.zip)  is downloading .... 
+[INFO][2018-03-26 16:32:22,871][PID:3156][TID:3900] [_download_file] download:http://10.1.8.5/pf_tools/resAgent.zip to local:c:\tmpResAgent\resAgent.zip finished Original: 5209102, downloaded: 5209102
+[INFO][2018-03-26 16:32:25,073][PID:3156][TID:3900] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpResAgent
+[ERROR][2018-03-26 16:32:25,075][PID:3156][TID:3900] [start] Exception running auto updater: 'module' object has no attribute 'getppid'
+[DEBUG][2018-03-26 16:32:25,079][PID:3156][TID:3900] [checkForUpdates] updateCheck response=
+{'version':'1.0.1','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[INFO][2018-03-26 16:32:25,872][PID:3156][TID:3900] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/resAgent.zip)  is downloading .... 
+[INFO][2018-03-26 16:32:25,992][PID:3156][TID:3900] [_download_file] download:http://10.1.8.5/pf_tools/resAgent.zip to local:c:\tmpResAgent\resAgent.zip finished Original: 5209102, downloaded: 5209102
+[INFO][2018-03-26 16:32:28,250][PID:3156][TID:3900] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpResAgent
+[ERROR][2018-03-26 16:32:28,250][PID:3156][TID:3900] [start] Exception running auto updater: 'module' object has no attribute 'getppid'
+[DEBUG][2018-03-26 16:32:28,256][PID:3156][TID:3900] [checkForUpdates] updateCheck response=
+{'version':'1.0.1','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[INFO][2018-03-26 16:32:29,131][PID:3156][TID:3900] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/resAgent.zip)  is downloading .... 
+[INFO][2018-03-26 16:32:29,237][PID:3156][TID:3900] [_download_file] download:http://10.1.8.5/pf_tools/resAgent.zip to local:c:\tmpResAgent\resAgent.zip finished Original: 5209102, downloaded: 5209102
+[INFO][2018-03-26 16:32:31,428][PID:3156][TID:3900] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam , dirUpdateFrom: c:\tmpResAgent
+[ERROR][2018-03-26 16:32:31,428][PID:3156][TID:3900] [start] Exception running auto updater: 'module' object has no attribute 'getppid'
+[DEBUG][2018-03-26 16:32:31,437][PID:3156][TID:3900] [checkForUpdates] updateCheck response=
+{'version':'1.0.1','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[INFO][2018-03-26 16:32:32,398][PID:3156][TID:3900] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/resAgent.zip)  is downloading .... 
+[INFO][2018-03-26 16:32:32,533][PID:3156][TID:3900] [_download_file] download:http://10.1.8.5/pf_tools/resAgent.zip to local:c:\tmpResAgent\resAgent.zip finished Original: 5209102, downloaded: 5209102
+[INFO][2018-03-26 16:32:33,884][PID:3156][TID:3900] [start] Received a keyboard interrupt, will exit ...

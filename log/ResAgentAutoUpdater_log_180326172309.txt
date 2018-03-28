@@ -1,0 +1,5 @@
+[DEBUG][2018-03-26 17:23:09,155][PID:3192][TID:4864] [checkForUpdates] updateCheck response=
+{'version':'1.0.1','path':'http://10.1.8.5/pf_tools/resAgent.zip'}
+[INFO][2018-03-26 17:23:09,348][PID:3192][TID:4864] [_download_file] toolPackage:(http://10.1.8.5/pf_tools/resAgent.zip)  is downloading .... 
+[INFO][2018-03-26 17:23:09,461][PID:3192][TID:4864] [_download_file] download:http://10.1.8.5/pf_tools/resAgent.zip to local:c:\tmpResAgent\resAgent.zip finished Original: 5209102, downloaded: 5209102
+[INFO][2018-03-26 17:23:09,973][PID:3192][TID:4864] [updateResAgent] Will do self upgrade. dirUpdateTo:D:\cgautam\resAgent , dirUpdateFrom: c:\tmpResAgent

@@ -22,7 +22,7 @@ from resAgentConfig import *
 
 class ResAgentAutoUpdater:
 
-    def __init__(self):
+    def __init__(self, resAgentPid = None, resMgrPid = None):
         """
         :type resMgr: wbxtfResMgr
         """
@@ -32,7 +32,8 @@ class ResAgentAutoUpdater:
         self._updateCheckInterval = RES_AGENT_UPDATE_CHECK_INTERVAL
 
         self._updateInfo = None
-
+        self.resAgentPid = resAgentPid
+        self.resMgrPid = resMgrPid
         self.start()
 
     def download_updateFiles(self, remote_path, target_folder):
@@ -111,17 +112,19 @@ class ResAgentAutoUpdater:
 
         ret = self.download_updateFiles(self._updateInfo["path"], self._tempFolder)
         if ret == True:
-            dirUpdateTo = os.path.abspath(os.path.dirname(__file__) + "/../../")
-            dirUpdateFrom = self._tempFolder + r"\resAgent"
+            dirUpdateTo = os.path.abspath(os.path.dirname(__file__) + "/../")
+            dirUpdateFrom = self._tempFolder
             resUpdater = self._tempFolder + r"\resUpdater.py"
 
             # Copy the resUpdater to the temp folder
             shutil.copy("resUpdater.py", resUpdater)
+            # Copy the Copy util to temp folder
+            shutil.copy("CopyUtil.py", self._tempFolder + r'\CopyUtil.py')
 
             WBXTFLogInfo("Will do self upgrade. dirUpdateTo:%s , dirUpdateFrom: %s" %
                          (dirUpdateTo, dirUpdateFrom))
 
-            subprocess.Popen(["python", resUpdater, dirUpdateFrom, dirUpdateTo, os.getpid()])
+            subprocess.Popen(["python", resUpdater, dirUpdateTo, dirUpdateFrom, str(os.getpid()), str(self.resAgentPid), str(self.resMgrPid)])
         else:
             WBXTFLogWarning("Download new version of resAgent failed.")
 
@@ -154,5 +157,8 @@ if __name__ == "__main__":
     logFilePath = os.path.join(os.path.split(os.path.realpath(__file__))[0], "../log/ResAgentAutoUpdater_log_%s.txt" % timeStamp)
     WBXTFLogSetLogFilePath(logFilePath)
 
-    resAgentAutoUpdater = ResAgentAutoUpdater()
+    if len(sys.argv) == 3:
+        resAgentAutoUpdater = ResAgentAutoUpdater(sys.argv[1], sys.argv[2])
+    else:
+        resAgentAutoUpdater = ResAgentAutoUpdater()
     resAgentAutoUpdater.start()

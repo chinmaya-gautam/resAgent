@@ -1,0 +1,4 @@
+[INFO][2018-03-26 12:17:39,957][PID:372][TID:1296] [onChannelIndication] GRPC Status : ChannelConnectivity.IDLE
+[INFO][2018-03-26 12:17:40,158][PID:372][TID:4808] [onChannelIndication] GRPC Status : ChannelConnectivity.CONNECTING
+[INFO][2018-03-26 12:17:40,158][PID:372][TID:4808] [onChannelIndication] GRPC Status : ChannelConnectivity.READY
+[INFO][2018-03-26 12:17:44,322][PID:372][TID:4552] [run] Res state changed from:None to 1

@@ -30,118 +30,9 @@ import json
 import types
 import shutil
 import subprocess
-from wbxtfResourceMgr.status_monitor import StatusMonitor, DEFAULT_SSH_PORT
-from wbxtfResourceMgr.toolMgr import *
-from wbxtfResourceMgr.tool_version_manager import ToolVersionManager
-import requests
-import zipfile
-
-g_wbxtf_resource_mgr_version = "1.0.21"
-
-class wbxtfResMgrAutoUpdate(threading.Thread):
-    def __init__(self,resMgr):
-        """
-        :type resMgr: wbxtfResMgr
-        """
-        threading.Thread.__init__(self,name="wbxtfResMgrAutoUpdate")
-        self._resMgr = resMgr
-        self._currentVersion = self._resMgr.getVersion()
-        self._updateURL = self._resMgr.getParam("RMC_AutoUpdateURL")
-        self._tempFolder = self._resMgr.getParam("RMC_TempFolder")
-        self._updateCheckInterval = self._resMgr.getParam("RMC_AutoUpdateCheckIntervalSec",defaultValue=60)
-
-    def download_updateFiles(self, remote_path, target_folder):
-        file_name = os.path.basename(remote_path)
-        local_path = os.path.join(target_folder, file_name)
-
-        # remove all files if target folder already exists,
-        # then re-create the folder again.
-        if os.path.exists(target_folder):
-            shutil.rmtree(target_folder, ignore_errors=True)
-        os.makedirs(target_folder)
-
-        if self._download_file(remote_path, local_path):
-            # unzip if the file is an archive
-            if zipfile.is_zipfile(local_path):
-                return self._unzip_and_delete(local_path)
-            else:
-                # directly return True if it is not zip file
-                return True
-        else:
-            return False
-
-    def _download_file(self, remote_path, local_path, chunk_size=1024):
-        """Download a tool from path. By default, the file should be a zip,
-        but not a directory.
-        """
-        WBXTFLogInfo("toolPackage:(%s)  is downloading .... " % remote_path)
-        stream = requests.get(remote_path, stream=True)
-        original_size = int(stream.headers['Content-Length'])
-        with open(local_path, 'wb') as f:
-            for chunk in stream.iter_content(chunk_size=chunk_size):
-                if chunk:   # filter out keep-alive new chunks
-                    f.write(chunk)
-
-        downloaded_size = os.path.getsize(local_path)
-        WBXTFLogInfo('download:%s to local:%s finished Original: %d, downloaded: %d' %
-                     (remote_path,local_path,original_size, downloaded_size))
-
-        # check if the file is downloaded completely.
-        return original_size == downloaded_size
-
-    def _unzip_and_delete(self, file_path, target_folder=None):
-        if not os.path.exists(file_path) or not os.path.isfile(file_path):
-            return False
-
-        target_folder = target_folder if target_folder is not None else os.path.dirname(file_path)
-
-        with zipfile.ZipFile(file_path) as zip_file:
-            zip_file.extractall(path=target_folder)
-
-        # remove the zip file after extraction.
-        os.remove(file_path)
-
-        return True
-
-
-    def run(self):
-        time.sleep(self._updateCheckInterval)
-        while 1:
-            try:
-                opener = urllib2.build_opener(urllib2.HTTPHandler)
-                request = urllib2.Request(
-                    url= self._updateURL,
-                )
-                request.get_method = lambda : "GET"
-                strResponse = opener.open(request).read()
-                dictResponse = eval(strResponse)
-                WBXTFLogDebug("updateCheck response=\n%s" % strResponse)
-
-                if isinstance(dictResponse,dict) and dictResponse.has_key("version") and dictResponse.has_key("path"):
-                    if self._currentVersion != dictResponse["version"]:
-                        ##download from server
-                        ret = self.download_updateFiles(dictResponse["path"],self._tempFolder)
-                        if ret == True:
-                            dirUpdateTo = os.path.abspath(os.path.dirname(__file__ ) + "/../")
-                            dirUpdateFrom = self._tempFolder + r"\wbxtfResouceManageAgent"
-                            updateHelperPath = dirUpdateTo+(r"\wbxtfResourceMgr\wbxtfResMgrSelfUpdate.py")
-                            tmpPath = r"C:\wbxtfResMgrSelfUpdate.py"
-                            shutil.copy(updateHelperPath,tmpPath)
-                            WBXTFLogInfo("Will do self upgrade. dirUpdateTo:%s , dirUpdateFrom: %s , selfUpdatePath:%s" %
-                                         (dirUpdateTo,dirUpdateFrom,tmpPath) )
-                            WBXTFService.WBXTFExecCmd("local",r"python %s" % tmpPath,"%s %s %s" % (dirUpdateTo,dirUpdateFrom,os.getpid()))
-                            break
-                        else:
-                            WBXTFLogWarning("Download new version of wbxtfResMgr failed.")
-                        pass
-                else:
-                    WBXTFLogWarning("Get Version info from:%s failed. ReturnResponse=%s" % (self._updateURL,strResponse))
-            except Exception,e:
-                WBXTFLogError("Auto update get exception=%s" % e)
-
-            time.sleep(self._updateCheckInterval)
-        pass
-
+from status_monitor import StatusMonitor, DEFAULT_SSH_PORT
+from toolMgr import *
+from tool_version_manager import ToolVersionManager
 
 class wbxtfPingAgent(threading.Thread):
     def __init__(self,masterIP,masterURL,checkingIntervalSec = 5):
@@ -239,15 +130,16 @@ class wbxtfPingAgent(threading.Thread):
 
 class wbxtfResMgr(object):
     def __init__(self,configPath = ""):
-        self._version = g_wbxtf_resource_mgr_version
         self._mgrCtrInterface = wbxtfResMgrCtrInterface(self)
         self._mgrCtr = wbxtfPyToolModule(self._mgrCtrInterface)
         self._mgrCtr.setupToolName("wbxtfResourceMgr")
+        self._mgrCtr.daemon = True
         self._lock = threading.Lock()
         self._configLock = threading.Lock()
         if configPath =="": configPath = os.path.abspath(__file__ + "\..\wbxtfResMgrConfig.py")
         self.__loadParamFile(configPath)
         self._toolMgr = toolMgr()
+        self._toolMgr.daemon = True
         self._monitor = StatusMonitor()
         self._toolVerMgr = ToolVersionManager(self.getParam("PFTBaseURL"))
 
@@ -264,9 +156,6 @@ class wbxtfResMgr(object):
     @property
     def ToolVerMgr(self):
         return self._toolVerMgr
-
-    def getVersion(self):
-        return self._version
 
     def __loadParamFile(self, file):
         with self._configLock:
@@ -299,7 +188,13 @@ class wbxtfResMgr(object):
                 time.sleep(30)
         except KeyboardInterrupt:
             WBXTFLogInfo("Resource Manager interrupted, will exit")
+            self.stop()
             sys.exit(0)
+
+    def stop(self):
+        #WBXTFLogInfo("unregistering tools")
+        #self._mgrCtr.unregisterTool()
+        time.sleep(1)
 
 class wbxtfResMgrCtrInterface(wbxtfPyToolModuleInterfaceBase):
     def __init__(self,ptrMgr):
@@ -309,9 +204,6 @@ class wbxtfResMgrCtrInterface(wbxtfPyToolModuleInterfaceBase):
         super(wbxtfResMgrCtrInterface,self).__init__()
         self._resMgr = ptrMgr
         self._lock = threading.RLock()
-
-    def getVersion(self):
-        return self._resMgr.getVersion()
 
     def reportManagedToolsInfo(self):
         return  self._resMgr.ToolMgr.reportManagedTools()
@@ -454,12 +346,6 @@ if __name__ == '__main__':
     logPath = os.path.abspath(__file__ + "/../log.txt")
     WBXTFLogSetLogFilePath(logPath,1024*1024*5,3)
 
-
-    versionString = "\n" \
-                    "############################################\n" \
-                    "#   WBXTF Resource Manager Version:%s   #\n" \
-                    "############################################" % g_wbxtf_resource_mgr_version
-    WBXTFLogInfo(versionString)
     oMgr = wbxtfResMgr()
     oMgr.start()
 

@@ -43,6 +43,7 @@ service resManager {
   rpc releaseWindows (releaseRequest) returns (releaseResponse) {}
   rpc updateResPool (resStatusInfo) returns (resStatusInfo) {}
   rpc getResPoolInfo (Empty) returns (resGetResPoolInfo) {}
+  rpc checkHeartBeat (resAgentInfo) returns (heartBeat){} 
 }
 
 message releaseRequest{
@@ -96,3 +97,12 @@ message resGetResPoolInfo {
   int32 total = 1;
   int32 free = 2;
 }
+
+message resAgentInfo {
+  string resIP = 1;
+}
+
+message heartBeat {
+  bool isAlive = 1; 
+}
+

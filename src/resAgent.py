@@ -53,6 +53,12 @@ class ResAgent:
 
         self.vmMonitor = vmMonitor.vmMonitor(self)
 
+        self.managedProcesses = {
+            "resAgent": str(os.getpid()),
+            "resMgr": "",
+            "autoUpdater": ""
+        }
+
         self.resMgrProcess = None
         self.autoUpdaterProcess = None
 
@@ -62,6 +68,7 @@ class ResAgent:
     def startResMgr(self):
         resMgrPath = os.path.abspath(basePath + "/resMgr_v2/wbxtfResourceMgr/wbxtfResMgr.py")
         resMgrProcess = subprocess.Popen(resMgrPath, shell=True)
+        self.managedProcesses['resMgr'] = str(resMgrProcess.pid)
         return resMgrProcess
 
     def stopResMgr(self):
@@ -72,7 +79,8 @@ class ResAgent:
 
     def startAutoUpdater(self):
         autoUpdaterPath = os.path.join(basePath, "src", "resAgentAutoUpdater.py")
-        autoUpdaterProcess = subprocess.Popen(autoUpdaterPath, shell=True)
+        autoUpdaterProcess = subprocess.Popen([autoUpdaterPath, self.managedProcesses['resAgent'], self.managedProcesses['resMgr']], shell=True)
+        self.managedProcesses['autoUpdater'] = str(autoUpdaterProcess.pid)
         return autoUpdaterProcess
 
     def stopAutoUpdater(self):
@@ -93,11 +101,11 @@ class ResAgent:
 
     def start(self):
         # Start wbxtfResMgr.py
-        WBXTFLogInfo("Starting Resource Manager...")
-        self.resMgrProcess = self.startResMgr()
-
         WBXTFLogInfo("Starting VM Booker...")
         self._vmBooker.start()
+
+        WBXTFLogInfo("Starting Resource Manager...")
+        self.resMgrProcess = self.startResMgr()
 
         WBXTFLogInfo("Starting Auto Updater...")
         self.autoUpdaterProcess = self.startAutoUpdater()

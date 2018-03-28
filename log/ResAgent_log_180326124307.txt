@@ -1,0 +1,6 @@
+[INFO][2018-03-26 12:43:07,197][PID:1048][TID:2544] [onChannelIndication] GRPC Status : ChannelConnectivity.IDLE
+[INFO][2018-03-26 12:43:07,398][PID:1048][TID:3076] [onChannelIndication] GRPC Status : ChannelConnectivity.CONNECTING
+[INFO][2018-03-26 12:43:07,400][PID:1048][TID:3076] [onChannelIndication] GRPC Status : ChannelConnectivity.READY
+[INFO][2018-03-26 12:43:11,207][PID:1048][TID:4032] [start] Starting Resource Manager...
+[INFO][2018-03-26 12:43:11,211][PID:1048][TID:4032] [start] Starting VM Booker...
+[INFO][2018-03-26 12:43:11,657][PID:1048][TID:4644] [run] Res state changed from:None to 1

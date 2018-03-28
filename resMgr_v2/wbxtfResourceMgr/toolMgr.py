@@ -4,9 +4,8 @@ import os
 import sys
 
 pylibPath = os.path.abspath(__file__ + "/../../")
-grpcPath = os.path.abspath(pylibPath + "/grpc")
+grpcPath = os.path.abspath(pylibPath + "/grpc_includes")
 sys.path.insert(0, grpcPath)
-
 import WBXTF
 import WBXTFTool
 import time
@@ -65,20 +64,31 @@ class toolMgr(threading.Thread):
 
     def _checkGRPCHeartbeat(self, addr):
         try:
+            print "[[DEBUG]] addr:", addr
             channel = grpc.insecure_channel(addr)
-            stub = resManager_pb2_grpc.resAgnetStub(channel)
-            response = stub.checkHeartBeat()
+            stub = resManager_pb2_grpc.resManagerStub(channel)
+            response = stub.checkHeartBeat(
+                resManager_pb2.resAgentInfo(
+                    resIP=self._machineIp
+                )
+            )
+            print "[[DEBUG]] GRPC HeartBeat response:", response
             return response.isAlive
+        except grpc.RpcError:
+            WBXTFLogInfo("GRPC server not reachable at %s, no heartbeat" % (addr))
+            return False
         except Exception as e:
             WBXTFLogError("Exception checking GRPC heartbeat at %s: %s" % (addr, str(e)))
             return False
 
     def _isOwnerURLVaild(self, URL):
 
+        print "[[DEBUG]] checking for validity of owner"
+
         def _checkURLType(url):
             try:
                 prefix = url[:5]
-                if prefix == 'wbxtf':
+                if prefix.lower() == 'wbxtf':
                     return "WBXTF"
                 else:
                     return "GRPC"
@@ -87,7 +97,8 @@ class toolMgr(threading.Thread):
                 # return default wbxtf type
                 return "WBXTF"
 
-        if _checkURLType == "GRPC":
+        if _checkURLType(URL) == "GRPC":
+            print "[[DEBUG]] Detected grpc url "
             return self._checkGRPCHeartbeat(URL)
 
         else:
@@ -276,6 +287,7 @@ class toolMgr(threading.Thread):
     def run(self):
         while 1:
             try:
+                print "[[DEBUG]] managed process owners:", self._managedProcessInfo.keys()
                 for ownerName in self._managedToolsInfo.keys():
                     url = self._managedToolsInfo[ownerName]["ownerURL"]
                     if self._isOwnerURLVaild(url) == False:
@@ -297,6 +309,9 @@ class toolMgr(threading.Thread):
 
                 for ownerName in self._managedProcessInfo.keys():
                     url = self._managedProcessInfo[ownerName]["ownerURL"]
+                    print "[[DEBUG]] url for owner %s: %s" % (ownerName, url)
+                    print "[[DEBUG]] is owner valid? ", self._isOwnerURLVaild(url)
+
                     if self._isOwnerURLVaild(url) == False:
                         WBXTFLogInfo(
                             "process owner:%s (url=%s) is not valid any more, its managed process will be killed" % (
@@ -314,7 +329,7 @@ class toolMgr(threading.Thread):
                         with self._lock:
                             del self._cmd4wbxtfObjExit[wbxtfObjURL]
 
-                time.sleep(1)
+                time.sleep(10) # !!! FOR DEBUG PURPOSE  actual value is supposed to be 1!!!
             except Exception, e:
                 WBXTFLogError("Exception caught in toolMgr checking thread. error:%s" % e)
 
