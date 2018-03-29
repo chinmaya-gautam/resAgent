@@ -1,0 +1,64 @@
+syntax = "proto3";
+
+package toolManager;
+
+// The resourceManager service definition.
+service toolManager {
+  rpc runManagedProcess (managedProcessRequest) returns (managedProcessResponse){}
+  rpc runUnmanagedProcess (unmanagedProcessRequest) returns (unmanagedProcessResponse) {}
+  rpc runManagedTool (managedToolRequest) returns (managedToolResponse) {}
+  rpc runUnmanagedTool (unmanagedToolRequest) returns (unmanagedToolResponse) {}
+}
+
+message managedProcessRequest {
+  string ownerName = 1;
+  string ownerURL = 2;
+  string procPath = 3;
+  int32 procNum = 4;
+  repeated string args = 5;
+}
+
+message managedProcessResponse {
+  int32 retCode = 1;
+  string retMsg = 2;
+}
+
+message unmanagedProcessRequest {
+  string procPath = 1;
+  int32 procNum = 2;
+  repeated string args = 3;
+}
+
+message unmanagedProcessResponse {
+  int32 retCode = 1;
+  string retMsg = 2;
+}
+
+
+message managedToolRequest {
+  string ownerName = 1;
+  string ownerURL = 2;
+  string toolPath = 3;
+  string toolType = 4;
+  int32 toolNum = 5;
+  int32 timeout = 6;
+  repeated string args = 7;
+}
+
+message managedToolResponse {
+  int32 retCode = 1;
+  string retMsg = 2;
+}
+
+message unmanagedToolRequest {
+  string toolPath = 1;
+  string toolType = 2;
+  int32 toolNum = 3;
+  int32 timeout = 4;
+  repeated string args = 5;
+}
+
+message unmanagedToolResponse {
+  int32 retCode = 1;
+  string retMsg = 2;
+}
